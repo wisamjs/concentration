@@ -8,10 +8,10 @@ class ViewActionCreators {
     });
   }
 
-  flipCard(card) {
+  flipCard(ID) {
     AppDispatcher.handleViewAction({
       type: ActionTypes.FLIP_CARD,
-      card: card
+      ID: ID
     });
   }
 }

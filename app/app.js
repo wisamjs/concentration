@@ -1,3 +1,3 @@
 import React from 'react';
-import Board from './components/board/board';
-React.render(<Board/>, document.getElementById('app'));
+import Concentration from './components/concentration/concentration';
+React.render(<Concentration/>, document.getElementById('app'));
