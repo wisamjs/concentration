@@ -14,6 +14,12 @@ class ViewActionCreators {
       ID: ID
     });
   }
+
+  loginToSpotify() {
+    AppDispatcher.handleViewAction({
+      type: ActionTypes.LOGIN_TO_SPOTIFY
+    });
+  }
 }
 
 export default new ViewActionCreators();
